@@ -169,7 +169,40 @@ section {
     padding-top: 2em;
 }
 #shakespeare {
-    background-color: aquamarine;
+   background-image: url(/images/vintage-old.jpg);
+}
+.shake-title {
+    text-align: center;
+}
+.shake-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+}
+.shake-image img {
+    image-rendering: pixelated;
+    image-resolution:initial;
+}
+.shake-search {
+      background-color: #5E88FF;
+    height: 25%;
+    margin-top: 3em;
+    border-radius: 3em;
+    margin-inline-end: 1.5em;
+    margin-inline-start: 1.5em;
+}
+.search-shake {
+    width: 30vw;
+    margin-left: 2em;
+    margin-top: 3em;
+    align-items: center;
+    border-radius: 2em;
+    font-size: 1em;
+    padding: 1em;
+}
+.button {
+    font-size: 1.5em;
 }
 #form {
     background-color: aqua;
