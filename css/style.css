@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+main {
+    background-color: black;
+}
+section {
+    width: 70vw;
+    height: 100vh;
+    padding: 10px;
+    margin: auto;
+}
+#home {
+    background-color: bisque;
+}
+#pirates {
+    background-color: blue;
+}
+#minions {
+    background-color: blueviolet;
+}
+#shakespeare {
+    background-color: aquamarine;
+}
+#form {
+    background-color: aqua;
+}
