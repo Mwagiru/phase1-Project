@@ -6,14 +6,45 @@
 main {
     background-color: black;
 }
+body {
+    margin-top: 5px;
+}
 section {
-    width: 70vw;
+    width: 85vw;
     height: 100vh;
     padding: 10px;
     margin: auto;
+    border-radius: 2em;
 }
 #home {
     background-color: bisque;
+}
+#home h1 {
+    text-align: center;
+}
+.paragraph {
+    width: 60vw;
+    display: inline-block;
+    word-wrap: break-word;
+    padding-left: 8em;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+.images {
+    padding-top: 8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+}
+.hide {
+    display: none;
+}
+.click {
+    color: #FFBD33 ;
+    cursor: cell ;
 }
 #pirates {
     background-color: blue;
