@@ -6,6 +6,31 @@
 main {
     background-color: black;
 }
+main ul {
+    list-style-type: none;
+    width: 15em;
+    height: 15em;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+    overflow: hidden;
+    justify-content: space-around;
+}
+li a{
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+li a:hover {
+    color: white;
+    background-color: black;
+    text-decoration: overline;
+}
 body {
     margin-top: 5px;
 }
@@ -46,10 +71,102 @@ section {
     cursor: cell ;
 }
 #pirates {
+    background-color: crimson;
+}
+.inner-pirates {
+    align-items: center;
+    background-color: black;
+    border: 3px solid white;
+    height: 60vh;
+    margin-top: 10em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+.pirates-title {
+    background-color: #FFBD33;
+    height:10%;
+    margin-top: 1em;
+    border-radius: 3em;
+    margin-inline-end: 1.5em;
+    margin-inline-start: 1.5em;
+}
+.pirates-title h1 {
+    text-align: center;
+    padding-top: 0.3em;
+}
+.pirates-search {
     background-color: blue;
+    height: 40%;
+    margin-top: 2em;
+    border-radius: 3em;
+    margin-inline-end: 1.5em;
+    margin-inline-start: 1.5em;
+}
+.search {
+    width: 30vw;
+    margin-left: 2em;
+    margin-top: 3em;
+    align-items: center;
+    border-radius: 2em;
+    font-size: 1em;
+    padding: 1em;
+}
+#click {
+    font-size: 1.5em;
+}
+.pirates-result {
+    background-color: aquamarine;
+    height: 30%;
+    margin-top: 1.5em;
+    border-radius: 2em;
+    box-shadow: 5px 5px 5px black;
+    margin-inline-end: 1.5em;
+    margin-inline-start: 1.5em;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 2em;
 }
 #minions {
-    background-color: blueviolet;
+    background-color: #FFD55E;
+}
+.minion-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 2em;
+    text-align: center;
+}
+.minion-search {
+    background-color: #5E88FF;
+    height: 25%;
+    margin-top: 2em;
+    border-radius: 3em;
+    margin-inline-end: 1.5em;
+    margin-inline-start: 1.5em;
+}
+.search-minion {
+     width: 30vw;
+    margin-left: 2em;
+    margin-top: 3em;
+    align-items: center;
+    border-radius: 2em;
+    font-size: 1em;
+    padding: 1em;
+}
+.clickButton {
+    font-size: 1.5em;
+}
+.minion-result {
+    background-color: aquamarine;
+    height: 20%;
+    margin-top: 1.5em;
+    border-radius: 2em;
+    box-shadow: 5px 5px 5px black;
+    margin-inline-end: 1.5em;
+    margin-inline-start: 1.5em;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 2em;
 }
 #shakespeare {
     background-color: aquamarine;
