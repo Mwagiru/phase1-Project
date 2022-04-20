@@ -1,11 +1,20 @@
+
 $(document).ready(function () {
-    $("p").click(function () {
-        $("img").show();
+    $(".click").click(function () {
+        $(".show").slideToggle();
+        $(".hide").slideToggle();
+    });
+});
+;
+$(document).ready(function () {
+    $(".clicked").click(function () {
+        $(".show1").toggle();
+        $(".hide1").toggle();
     });
 });
 $(document).ready(function () {
-    $(".click").click(function () {
-        $(".show").toggle();
-        $(".hide").toggle();
+    $(".clickable").click(function () {
+        $(".show2").fadeToggle();
+        $(".hide2").fadeToggle();
     });
 });
