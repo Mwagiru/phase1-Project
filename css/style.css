@@ -250,14 +250,38 @@ button {
     font-size: 1.3em;
 }
 #form {
-    background-color: white;
+    background-color: bisque
 }
 .feedback {
     align-items: center;
     background-color: black;
     border: 3px solid white;
-    height: 70vh;
-    margin-top: 8em;
+    height: 80vh;
+    margin-top: 5em;
     margin-inline-start: 10px;
     margin-inline-end: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2em;
+    border-radius: 1.3em;
+}   
+form input {
+    font-size: 1.2em;
+    border-radius: 1.5em;
+    font-family: 'Comfortaa', cursive;
+    padding: 15px;
+    text-align: center;
+}
+form textarea {
+    border-radius: 1.1em;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+form button {
+    border-radius: 15px;
 }

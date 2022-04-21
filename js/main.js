@@ -20,7 +20,7 @@ $(document).ready(function () {
 });
 //Pirate Translator
 
-const Text = document.querySelector("#search");
+const text = document.querySelector("#search");
 const button = document.querySelector("#click");
 const responseDiv = document.querySelector(".pirates-result");
 
@@ -32,7 +32,7 @@ const options = {
 }
 let url= "https://api.funtranslations.com/translate/pirate.json"
 function display() {
-    let word = Text.value;
+    let word = text.value;
     Url1 = `${url}?text=${word}`
     fetch(Url1,options).then((data) => data.json()).then((data) => {
         console.log(data);
@@ -40,12 +40,12 @@ function display() {
        
     })
 }
+button.addEventListener("click", display);
 // Minion Translator
 const input= document.querySelector("#search-minion");
 const click= document.querySelector(".clickButton");
 const resultDiv = document.querySelector("#minion-result");
 
-click.addEventListener("click", displayPhrase);
 const option= {
     method: 'GET',
     headers: {
@@ -63,12 +63,14 @@ function displayPhrase() {
     })
 
 }
+click.addEventListener("click", displayPhrase);
+
 //Shakespeare Translator
 const search = document.querySelector("#search-shake");
 const respond = document.querySelector(".button");
 const result = document.querySelector(".shake-result");
 
-respond.addEventListener("click", displayShake);
+
 const info = {
     method: 'GET',
     headers: {
@@ -86,3 +88,4 @@ function displayShake() {
     })
 
 }
+respond.addEventListener("click", displayShake);
