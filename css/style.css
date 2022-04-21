@@ -39,25 +39,32 @@ section {
     height: 100vh;
     padding: 10px;
     margin: auto;
+    border: 0;
 }
 #home {
     background-color: bisque;
 }
 #home h1 {
     text-align: center;
+    font-size: 4em;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    margin-top: 0.5em;
 }
 .paragraph {
-    width: 60vw;
+    width: 50vw;
     display: inline-block;
     word-wrap: break-word;
-    padding-left: 5em;
     padding-top: 10px;
-    text-align: center;
-    font-size: 1.5em;
-    line-height: 1.5em;
+    padding-left: 10em;
+    font-size: 1.16em;
+    line-height: 1.6em;
+    color: rgb(82, 81, 78);
+    font-family: 'Comfortaa', cursive;
+
 }
 .images {
-    padding-top: 8em;
+    padding-top: 5em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -69,6 +76,11 @@ section {
 .click,.clickable,.clicked {
     color: #FFBD33 ;
     cursor: cell ;
+}
+.hide p,.hide1 p,.hide2 p {
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.4em;
+    padding-left: 10px;
 }
 #pirates {
     background-color: crimson;
@@ -205,5 +217,14 @@ section {
     font-size: 1.5em;
 }
 #form {
-    background-color: aqua;
+    background-color: white;
+}
+.feedback {
+    align-items: center;
+    background-color: black;
+    border: 3px solid white;
+    height: 70vh;
+    margin-top: 8em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
 }
