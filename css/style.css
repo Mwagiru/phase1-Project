@@ -112,10 +112,9 @@ section {
     margin-top: 2em;
     border-radius: 3em;
     margin-inline-end: 1.5em;
-    margin-inline-start: 1.5em;
-    
+    margin-inline-start: 1.5em;  
 }
-.search {
+#search {
     width: 30vw;
     margin-left: 2em;
     margin-top: 3em;
@@ -165,7 +164,8 @@ section {
     margin-inline-end: 1.5em;
     margin-inline-start: 1.5em;
 }
-.search-minion {
+
+#search-minion {
      width: 30vw;
     margin-left: 2em;
     margin-top: 3em;
@@ -179,7 +179,7 @@ section {
     font-size: 1.5em;
     font-family: 'Happy Monkey', cursive;
 }
-.minion-result {
+#minion-result {
     background-color: black;
     height: 20%;
     margin-top: 1.5em;
@@ -220,7 +220,7 @@ section {
     margin-inline-end: 1.5em;
     margin-inline-start: 1.5em;
 }
-.search-shake {
+#search-shake {
     width: 30vw;
     margin-left: 2em;
     margin-top: 1em;
@@ -245,6 +245,9 @@ section {
     text-align: center;
     padding-top: 1em;
     font-family: 'Smythe', cursive;
+}
+button {
+    font-size: 1.3em;
 }
 #form {
     background-color: white;

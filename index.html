@@ -70,8 +70,9 @@
             </div>
             <div class="inner-pirates">
                 <div class="pirates-search">
-                    <input type="text" class="search">
+                    <input type="text" id="search">
                     <button id="click">Translate</button>
+                    <button onclick="document.getElementById('search').value = '' ">Reset</button>
                 </div>
                 <div class="pirates-result">
                 </div>
@@ -83,10 +84,11 @@
                 <h1> MINION TRANSLATOR</h1>     
             </div>
             <div class="minion-search">
-                <input type="text" class="search-minion">
+                <input type="text" id="search-minion">
                 <button class="clickButton">Translate</button>
+                <button onclick="document.getElementById('search-minion').value = '' ">Reset</button>
             </div>
-            <div class="minion-result">
+            <div id="minion-result">
             </div>
         </section>
         <section id="shakespeare">
@@ -97,8 +99,9 @@
                 <img src="./images/shake.jpg" alt="William" width="400px" height="400px">
             </div>
             <div class="shake-search">
-                <input type="text" class="search-shake">
+                <input type="text" id="search-shake">
                 <button class="button">Translate</button>
+                <button onclick="document.getElementById('search-shake').value = '' ">Reset</button>
             </div>
             <div class="shake-result">
 

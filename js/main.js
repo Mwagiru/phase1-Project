@@ -20,11 +20,10 @@ $(document).ready(function () {
 });
 //Pirate Translator
 
-const Text = document.querySelector(".search");
+const Text = document.querySelector("#search");
 const button = document.querySelector("#click");
 const responseDiv = document.querySelector(".pirates-result");
 
-button.addEventListener("click", display);
 const options = {
     method: 'GET',
     headers: {
@@ -40,12 +39,11 @@ function display() {
         responseDiv.innerHTML= data.contents.translated;
        
     })
-  
 }
 // Minion Translator
-const input= document.querySelector(".search-minion");
+const input= document.querySelector("#search-minion");
 const click= document.querySelector(".clickButton");
-const resultDiv = document.querySelector(".minion-result");
+const resultDiv = document.querySelector("#minion-result");
 
 click.addEventListener("click", displayPhrase);
 const option= {
@@ -66,7 +64,7 @@ function displayPhrase() {
 
 }
 //Shakespeare Translator
-const search = document.querySelector(".search-shake");
+const search = document.querySelector("#search-shake");
 const respond = document.querySelector(".button");
 const result = document.querySelector(".shake-result");
 
