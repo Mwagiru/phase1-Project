@@ -104,6 +104,7 @@ section {
     padding-top: 0.3em;
     font-size: 3.5em;
     font-family: 'Pirata One', cursive;
+    text-shadow: 5px 5px 5px gold;
 }
 .pirates-search {
     background-color: black;
