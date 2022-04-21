@@ -126,7 +126,11 @@ section {
 }
 #click {
     font-size: 1.5em;
-    margin-left: 1.3em;
+    font-family: 'Pirata One', cursive;
+}
+.click1 {
+    font-size: 1.5em;
+    margin-left: 0.4em;
     font-family: 'Pirata One', cursive;
 }
 .pirates-result {
@@ -179,6 +183,11 @@ section {
     font-size: 1.5em;
     font-family: 'Happy Monkey', cursive;
 }
+#clickButton {
+    font-size: 1.5em;
+    font-family: 'Happy Monkey', cursive;
+    margin-left: 0.4em;
+}
 #minion-result {
     background-color: black;
     height: 20%;
@@ -212,7 +221,7 @@ section {
     image-resolution:initial;
 }
 .shake-search {
-    background-color: #D8B370;
+    background-color: #6A423D;
     box-shadow: 8px 8px 8px black;
     height: 18%;
     margin-top: 1em;
@@ -234,17 +243,23 @@ section {
     font-size: 1.5em;
     font-family: 'Smythe', cursive;
 }
+#button {
+     font-size: 1.5em;
+    font-family: 'Smythe', cursive;
+    margin-left: 0.4em;
+}
 .shake-result {
-    background-color: #665541;
-    height: 15%;
+    background-color: #9C8170;
     margin-top: 1em;
     border-radius: 2em;
     margin-inline-end: 1.5em;
     margin-inline-start: 1.5em;
     font-size: 2em;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 0.3em;
     font-family: 'Smythe', cursive;
+    color: #cfb895;
+    height: 10%;
 }
 button {
     font-size: 1.3em;
@@ -276,11 +291,14 @@ form input {
     font-family: 'Comfortaa', cursive;
     padding: 15px;
     text-align: center;
+    background-color: bisque;
+    font-weight: bolder;
 }
 form textarea {
     border-radius: 1.1em;
     padding-left: 15px;
     padding-top: 15px;
+    background-color: bisque;
 }
 form button {
     border-radius: 15px;
