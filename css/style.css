@@ -87,15 +87,12 @@ section {
 }
 .inner-pirates {
     align-items: center;
-    background-color: black;
-    border: 3px solid white;
     height: 60vh;
-    margin-top: 10em;
+    margin-top: 5em;
     margin-inline-start: 10px;
     margin-inline-end: 10px;
 }
 .pirates-title {
-    background-color: #FFBD33;
     height:10%;
     margin-top: 1em;
     border-radius: 3em;
@@ -105,14 +102,17 @@ section {
 .pirates-title h1 {
     text-align: center;
     padding-top: 0.3em;
+    font-size: 3.5em;
+    font-family: 'Pirata One', cursive;
 }
 .pirates-search {
-    background-color: blue;
+    background-color: black;
     height: 40%;
     margin-top: 2em;
     border-radius: 3em;
     margin-inline-end: 1.5em;
     margin-inline-start: 1.5em;
+    
 }
 .search {
     width: 30vw;
@@ -122,21 +122,24 @@ section {
     border-radius: 2em;
     font-size: 1em;
     padding: 1em;
+    font-family: 'Pirata One', cursive;
 }
 #click {
     font-size: 1.5em;
+    margin-left: 1.3em;
 }
 .pirates-result {
-    background-color: aquamarine;
+    background-color: gold;
     height: 30%;
     margin-top: 1.5em;
     border-radius: 2em;
-    box-shadow: 5px 5px 5px black;
+    box-shadow:10px 10px 10px black;
     margin-inline-end: 1.5em;
     margin-inline-start: 1.5em;
     font-size: 1.5em;
     text-align: center;
     padding-top: 2em;
+    font-family: 'Pirata One', cursive;
 }
 #minions {
     background-color: #FFD55E;
