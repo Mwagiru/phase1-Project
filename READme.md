@@ -1,6 +1,7 @@
 ## Fun Translate
 This is a translation web application. The thing that makes it INTERESTING, is the fact that one doesn't do the normal language- language translation.
 It translates "Normal English" to let's say, oldenglish, like the one SHAKESPEARE used. FUn right? I am sure you are a little curious about how certain phrases would sound if we were in another era.
+In this project, you will have three Translators to choose from and once you have made a choice, you can input your phrase in the search field. Click the "TRANSLATE" button and receive the response.
 Have fun with this project.
 ## Check out portfolio here:
 
