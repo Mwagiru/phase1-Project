@@ -4,7 +4,7 @@ It translates "Normal English" to let's say, oldenglish, like the one SHAKESPEAR
 In this project, you will have three Translators to choose from and once you have made a choice, you can input your phrase in the search field. Click the "TRANSLATE" button and receive the response.
 Have fun with this project.
 ## Check out portfolio here:
-
+(https://mwagiru.github.io/phase1-Project/)
 ## author name
 JOY MWAGIRU designed and coded this project.
 ## setup instructions
